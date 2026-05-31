@@ -42,3 +42,5 @@ Thumbs.db
 # SQL dumps
 *.sql
 *.sqlite
+
+src/includes/config.php
