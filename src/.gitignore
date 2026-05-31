@@ -1,0 +1,27 @@
+# Composer
+/vendor/
+
+# Uploads (file-at e perdoruesve)
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/packages/
+/uploads/packages/*
+!/uploads/packages/.gitkeep
+
+# Labels (PDF te gjeneruara)
+/labels/*
+!/labels/.gitkeep
+
+# Konfigurime sensitive
+/includes/config.php
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
