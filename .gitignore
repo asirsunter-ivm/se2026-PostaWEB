@@ -23,3 +23,22 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+# Database config
+config/db.php
+config/config.php
+
+# Upload files
+uploads/
+storage/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+~$*
+
+# SQL dumps
+*.sql
+*.sqlite
